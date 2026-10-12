@@ -1,59 +1,31 @@
-# ExamenMultimediaDiego
+# Portafolio de Diego Mancilla
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 22.2.2.
+Portafolio de una sola página construido con Angular standalone, TypeScript y Tailwind CSS v4.
 
-## Development server
+La dirección visual toma como referencia la estructura editorial y la navegación discreta de [Brittany Chiang](https://brittanychiang.com/) y el uso intencional de la tipografía de [Rauno Freiberg](https://rauno.me/), reinterpretados con una paleta de bosque que acompaña la fotografía personal de Diego.
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Desarrollo
 
 ```bash
-ng generate component component-name
+npm install
+npm start
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+La aplicación queda disponible en `http://localhost:4200/`.
+
+## Personalización
+
+- Edita `src/app/data/profile.ts` para actualizar la presentación, biografía y enlaces de contacto.
+- Añade proyectos reales en `src/app/data/projects.ts`; cada proyecto lleva su slug, descripción, stack, enlaces y ruta a la portada.
+- Revisa `src/app/data/skills.ts` y ajusta las habilidades para que representen tu experiencia.
+- La foto principal está en `public/images/profile/hero.jpeg`. Su recorte cuadrado para la presentación circular está en `public/images/profile/portrait.jpeg`.
+- Para cada proyecto, coloca su portada en `public/images/projects/<slug>/cover.webp` y activa `coverAvailable` en sus datos. Las capturas son opcionales.
+
+Las imágenes propias deben optimizarse en WebP; no se incluyen imágenes de stock ni enlaces externos de imágenes.
+
+## Verificación
 
 ```bash
-ng generate --help
+npm run build
+npm test -- --watch=false
 ```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
