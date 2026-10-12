@@ -13,6 +13,14 @@ npm start
 
 La aplicación queda disponible en `http://localhost:4200/`.
 
+## Publicación en GitHub Pages
+
+El flujo de GitHub Actions publica automáticamente la rama `main` en:
+
+<https://diegosiste.github.io/ExamenPortafolio/>
+
+La primera vez, habilita GitHub Pages en **Settings → Pages → Build and deployment → Source → GitHub Actions**. Después, cada push a `main` compilará y publicará el portafolio automáticamente.
+
 ## Personalización
 
 - Edita `src/app/data/profile.ts` para actualizar la presentación, biografía y enlaces de contacto.
