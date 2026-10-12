@@ -12,14 +12,20 @@ export const profile = {
   portraitImage: '/images/profile/portrait.jpeg',
   contact: {
     email: '',
-    github: '',
+    github: 'https://github.com/DiegoSiSte',
     linkedin: '',
+    instagram: 'https://www.instagram.com/diego_magz/',
   },
+  socialLinks: [
+    { label: 'GitHub', href: 'https://github.com/DiegoSiSte', description: 'Código y proyectos' },
+    { label: 'Instagram', href: 'https://www.instagram.com/diego_magz/', description: '@diego_magz' },
+  ],
   navigation: [
     { label: 'Inicio', href: '#inicio' },
     { label: 'Sobre mí', href: '#sobre-mi' },
     { label: 'Proyectos', href: '#proyectos' },
     { label: 'Habilidades', href: '#habilidades' },
     { label: 'Contacto', href: '#contacto' },
+    { label: 'Redes', href: '#redes' },
   ],
 };

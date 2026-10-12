@@ -16,6 +16,7 @@ La aplicación queda disponible en `http://localhost:4200/`.
 ## Personalización
 
 - Edita `src/app/data/profile.ts` para actualizar la presentación, biografía y enlaces de contacto.
+- Actualiza las direcciones de tus perfiles GitHub e Instagram en `src/app/data/profile.ts` si cambian.
 - Añade proyectos reales en `src/app/data/projects.ts`; cada proyecto lleva su slug, descripción, stack, enlaces y ruta a la portada.
 - Revisa `src/app/data/skills.ts` y ajusta las habilidades para que representen tu experiencia.
 - La foto principal está en `public/images/profile/hero.jpeg`. Su recorte cuadrado para la presentación circular está en `public/images/profile/portrait.jpeg`.

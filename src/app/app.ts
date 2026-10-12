@@ -6,6 +6,7 @@ import { HeroComponent } from './components/hero/hero';
 import { NavbarComponent } from './components/navbar/navbar';
 import { ProjectsComponent } from './components/projects/projects';
 import { SkillsComponent } from './components/skills/skills';
+import { SocialLinksComponent } from './components/social-links/social-links';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { SkillsComponent } from './components/skills/skills';
     ProjectsComponent,
     SkillsComponent,
     ContactComponent,
+    SocialLinksComponent,
     FooterComponent,
   ],
   templateUrl: './app.html',

@@ -11,11 +11,4 @@ import { RevealDirective } from '../../directives/reveal.directive';
 })
 export class ContactComponent {
   protected readonly profile = profile;
-
-  protected get socialLinks(): { label: string; href: string }[] {
-    return [
-      { label: 'GitHub', href: this.profile.contact.github },
-      { label: 'LinkedIn', href: this.profile.contact.linkedin },
-    ].filter((link) => link.href.length > 0);
-  }
 }

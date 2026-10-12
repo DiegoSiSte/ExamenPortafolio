@@ -27,14 +27,6 @@
         } @else {
           <span class="inline-flex min-h-12 items-center rounded-full border border-white/15 px-6 text-xs text-muted">Email próximamente</span>
         }
-        @for (link of socialLinks; track link.label) {
-          <a
-            [href]="link.href"
-            target="_blank"
-            rel="noreferrer"
-            class="inline-flex min-h-12 items-center justify-center rounded-full border border-white/25 px-6 text-xs text-text transition duration-300 hover:scale-[1.02] hover:bg-white/10 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent"
-          >{{ link.label }}</a>
-        }
       </div>
     </div>
   </div>
